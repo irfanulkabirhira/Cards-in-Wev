@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Dasy UI installation -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Tailwind Installaiton  -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Card Design</title>
+  </head>
+  <body>
+    <!-- Card Design 1  -->
+    <main>
+      <!-- Upper Section -->
+      <section class="flex flex-col justify-center items-center space-y-3">
+        <h1 class="lg:text-3xl text-2xl font-bold">My Current Target</h1>
+        <p class="text-gray-600 lg:text-xl text-center">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem<br/>Ipsum has been the industry's standard dummy
+          text.
+        </p>
+
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-10 mx-auto lg:w-9/12 my-6">
+            <!-- card Section Part-->
+        <div
+        class="flext flex-col items-start p-10 space-y-3 bg-[#FF4C1E0D] rounded-lg w-64"
+      >
+        <img src="./assets/html.jpg" alt="" />
+        <h3 class="font-bold text-xl">HTML</h3>
+        <p class="text-gray-800">
+          Lorem Ipsum is simply dummy text of the printing.
+        </p>
+        <a
+          href="https://example.com"
+          class="text-[#0D1321] hover:underline font-bold"
+        >
+          Lean More
+        </a>
+      </div>
+      <div
+        class="flext flex-col items-start p-10 space-y-3 bg-[#004CE80D] rounded-lg w-64"
+      >
+        <img src="./assets/css.jpg" alt="" />
+        <h3 class="font-bold text-xl">CCS</h3>
+        <p class="text-gray-700">
+          Lorem Ipsum is simply dummy text of the printing.
+        </p>
+        <a
+          href="https://example.com"
+          class="text-[#0D1321] hover:underline font-bold"
+        >
+          Lean More
+        </a>
+      </div>
+
+      <div
+        class="flext flex-col items-start p-10 space-y-3 bg-[#FFDF000D] rounded-lg w-64"
+      >
+        <img src="./assets/js.jpg" alt="" />
+        <h3 class="font-bold text-xl">Java Script</h3>
+        <p class="text-gray-700">
+          Lorem Ipsum is simply dummy text of the printing.
+        </p>
+        <a
+          href="https://example.com"
+          class="text-[#0D1321] hover:underline font-bold"
+        >
+          Lean More
+        </a>
+      </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
